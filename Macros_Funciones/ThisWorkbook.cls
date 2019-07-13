@@ -10,3 +10,6 @@ Attribute VB_Exposed = True
 Private Sub Workbook_Open()
 MsgBox ("Bienvenidos al Punto de Ventas de Pc-León")
 End Sub
+Private Sub Workbook_BeforeClose(Cancel As Boolean)
+MsgBox ("Cerrado")
+End Sub
